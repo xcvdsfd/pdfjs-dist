@@ -29227,7 +29227,7 @@ function (_Annotation2) {
     data.readOnly = _this3.hasFieldFlag(_util.AnnotationFieldFlag.READONLY);
 
     if (data.fieldType === 'Sig') {
-      data.fieldValue = null;
+      // data.fieldValue = null;
 
       _this3.setFlags(_util.AnnotationFlag.HIDDEN);
     }
